@@ -335,10 +335,10 @@ lead_status:
   - :rejected
 
 lead_status_color:
-  :new       : Lightgreen
-  :contacted : Mediumaquamarine
+  :new       : LawnGreen 
+  :contacted : Forestgreen
   :converted : Darkorange
-  :rejected  : OrangeRed
+  :rejected  : Red
 
 lead_source:
   - :campaign
