@@ -3,15 +3,15 @@
 // Fat Free CRM is freely distributable under the terms of MIT license.
 // See MIT-LICENSE file or http://www.opensource.org/licenses/mit-license.php
 //------------------------------------------------------------------------------
-$color_header: skyblue;
-$color_header_background: #1e4262;
-$color_logo: greenyellow;
+$color_header: white;
+$color_header_background: #5cb85c;
+$color_logo: white;
 $color_tab: white;
-$color_tab_background: #466bb1;
+$color_tab_background: #5cb85c;
 $color_active_tab: black;
 $color_active_tab_background: #E5E5E5;
 $color_hover_tab: navy;
-$color_hover_tab_background: #97baff;
+$color_hover_tab_background: grey;
 $size_tab_height: 26px;
 $size_tab_width: 80px;
 $color_footer: grey;
@@ -25,20 +25,21 @@ $color_footer: grey;
   h3 a {
     background: $color_header_background;
     color: $color_logo;
-    font: normal 15px "Lucida Grande", Arial, Helvetica, sans-serif;
+    margin: 15px;
+    font: normal 24px  Arial, Helvetica, sans-serif;
     text-decoration: none; }
   #welcome {
     float: right;
     font-size: 11px;
     a {
-      color: lightyellow;
+      color: #2b562b;
       padding: 1px 4px 2px 4px;
       text-decoration: none;
       &:hover {
         background: $color_header_background;
-        color: yellow; } }
+        color: #3b803b; } }
     a.selected {
-      background: steelblue;
+      background: #3a753a;
       color: lightyellow;
       -moz-border-radius: {
         topleft: 2px;
@@ -47,7 +48,7 @@ $color_footer: grey;
         top-left-radius: 2px;
         top-right-radius: 2px; }; } }
   #jumpbox {
-    background: steelblue;
+    background: #3a753a;
     margin: 2px 0px 0px 0px;
     padding: 12px;
     position: absolute;
@@ -62,9 +63,9 @@ $color_footer: grey;
         color: white;
         padding: 0px 0px 4px 0px;
         &.selected {
-          color: navy; }
+          color: #58cb58; }
         &:hover {
-          background: steelblue; } } }
+          background: #55b155; } } }
     #jumpbox_label {
       color: white; }
     input {
