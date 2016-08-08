@@ -335,9 +335,9 @@ lead_status:
   - :rejected
 
 lead_status_color:
-  :new       : Silver
-  :contacted : Turquoise
-  :converted : Lime
+  :new       : Lightgreen
+  :contacted : Mediumaquamarine
+  :converted : Darkorange
   :rejected  : OrangeRed
 
 lead_source:
