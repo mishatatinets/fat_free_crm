@@ -126,6 +126,13 @@ Rails.application.routes.draw do
     end
   end
 
+  resources :bwisebgreen do
+    get :index
+  end
+  resources :search_history do
+    get :index
+  end
+
   resources :tasks, id: /\d+/ do
     collection do
       post :filter
