@@ -299,12 +299,12 @@ account_category:
   - :vendor
 
 account_category_color:
-  :affiliate   : lavender
-  :competitor  : paleturquoise
-  :customer    : pink
-  :partner     : bisque
-  :reseller    : thistle
-  :vendor      : skyblue
+  :affiliate   : Silver
+  :competitor  : Silver
+  :customer    : Silver
+  :partner     : Silver
+  :reseller    : Silver
+  :vendor      : Silver
 
 # Campaign Status. To add custom status use string value, for example:
 #
