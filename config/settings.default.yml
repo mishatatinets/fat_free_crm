@@ -218,26 +218,21 @@
   :url:
     :controller: leads
 - :active: false
-  :text: :tab_accounts
-  :icon: :fa-users
-  :url:
-    :controller: accounts
-- :active: false
   :text: :tab_contacts
   :icon: :fa-user
   :url:
     :controller: contacts
 - :active: false
+  :text: :tab_accounts
+  :icon: :fa-users
+  :url:
+    :controller: accounts
+- :active: false
   :text: :tab_opportunities
   :icon: :fa-money
   :url:
     :controller: opportunities
-- :active: false
-  :text: :tab_team
-  :icon: :fa-globe
-  :url:
-    :controller: users
-    :action: opportunities_overview
+
 
 :admin_tabs:
 - :active: true

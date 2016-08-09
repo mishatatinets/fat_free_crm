@@ -55,6 +55,7 @@ class User < ActiveRecord::Base
   has_many :preferences, dependent: :destroy
   has_many :lists
   has_and_belongs_to_many :groups
+  has_many :entities_queries, :class_name => 'Entities::Query'
 
   has_paper_trail class_name: 'Version', ignore: [:perishable_token]
 

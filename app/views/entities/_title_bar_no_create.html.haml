@@ -1,0 +1,13 @@
+- model_name = controller_name.singularize
+
+.title_tools
+  #buttons
+    = view_buttons
+
+
+.title
+  %span{:id => "create_#{model_name}_title"} #{t controller_name.capitalize.to_sym}
+
+
+
+

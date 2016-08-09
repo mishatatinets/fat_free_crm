@@ -1,0 +1,28 @@
+
+
+<%= render 'entities/title_bar_no_create' %>
+
+
+
+  <%- @history.each do |f| %>
+    <input type="checkbox" name="vehicle" value="Bike" style="position: relative; top: 8px;">
+    <ul class="highlight">
+
+    <div class="indentslim" style="margin-top: -20px;">
+
+      <dt style="padding: 2px 0px 0px 0px">
+      <strong>Search Params: </strong> <span style="color: darkgreen"><%= f.params %></span>  <br>
+        Top: 25 responses: <%- f.value.split('],[').each do |t|%>
+        <ul style="font-size: 10px;"> <input type="checkbox" name="vehicle" value="Bike"> <%= t.delete('[').delete(']') %></ul>
+            <% end %>
+      <strong>User:</strong>  <%= f.user.username %> <%= link_to "Search Again", f.url %>  <strong> Count: </strong><%= f.count %>
+      </dt>
+    </div>
+  <hr >
+    </ul>
+<% end %>
+
+
+
+
+

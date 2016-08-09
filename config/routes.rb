@@ -129,7 +129,10 @@ Rails.application.routes.draw do
   resources :bwisebgreen do
     get :index
   end
-  resources :search_history do
+  resources :queries do
+    get :index
+  end
+  resources :reports do
     get :index
   end
 

@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150427131956) do
+ActiveRecord::Schema.define(version: 20160809011212) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -338,6 +338,16 @@ ActiveRecord::Schema.define(version: 20150427131956) do
   end
 
   add_index "preferences", ["user_id", "name"], name: "index_preferences_on_user_id_and_name", using: :btree
+
+  create_table "queries", force: :cascade do |t|
+    t.string   "params"
+    t.integer  "count"
+    t.string   "value",      limit: 5000
+    t.string   "url"
+    t.integer  "user_id"
+    t.datetime "created_at",              null: false
+    t.datetime "updated_at",              null: false
+  end
 
   create_table "sessions", force: :cascade do |t|
     t.string   "session_id", null: false
