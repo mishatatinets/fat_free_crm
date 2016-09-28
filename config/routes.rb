@@ -138,7 +138,9 @@ Rails.application.routes.draw do
   resources :documents do
     get :index
   end
-
+  resources :websearch do
+    get :index
+  end
   resources :tasks, id: /\d+/ do
     collection do
       post :filter

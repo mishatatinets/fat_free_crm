@@ -228,7 +228,7 @@
   :url:
     :controller: leads
 - :active: false
-  :text: "Clients"
+  :text: "Accounts"
 #  :icon: :fa-users
   :url:
     :controller: accounts
@@ -249,6 +249,11 @@
   :url:
     :controller: bwisebgreen
     :action: index
+- :active: false
+  :text: "Web Search"
+#  :icon: :fa-search
+  :url:
+    :controller: websearch
 - :active: false
   :text: "Reports"
 #  :icon: :fa-list-alt
