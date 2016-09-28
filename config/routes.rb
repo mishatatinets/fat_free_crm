@@ -135,6 +135,9 @@ Rails.application.routes.draw do
   resources :reports do
     get :index
   end
+  resources :documents do
+    get :index
+  end
 
   resources :tasks, id: /\d+/ do
     collection do

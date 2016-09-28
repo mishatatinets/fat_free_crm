@@ -37,9 +37,9 @@ $color_footer: grey;
       text-decoration: none;
       &:hover {
         background: $color_header_background;
-        color: #3b803b; } }
+        color: #d35400; } }
     a.selected {
-      background: #3a753a;
+      background: #d35400;
       color: lightyellow;
       -moz-border-radius: {
         topleft: 2px;
@@ -48,7 +48,7 @@ $color_footer: grey;
         top-left-radius: 2px;
         top-right-radius: 2px; }; } }
   #jumpbox {
-    background: #3a753a;
+    background: #d35400;
     margin: 2px 0px 0px 0px;
     padding: 12px;
     position: absolute;
@@ -65,7 +65,7 @@ $color_footer: grey;
         &.selected {
           color: #58cb58; }
         &:hover {
-          background: #55b155; } } }
+          background: gray; } } }
     #jumpbox_label {
       color: white; }
     input {

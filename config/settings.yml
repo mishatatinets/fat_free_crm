@@ -199,62 +199,66 @@
 :tabs:
 - :active: true
   :text: :tab_dashboard
-  :icon: :fa-dashboard
+#  :icon: :fa-dashboard
   :url:
     :controller: home
 - :active: false
   :text: :tab_tasks
-  :icon: :fa-check-square-o
+#  :icon: :fa-check-square-o
   :url:
     :controller: tasks
 - :active: false
   :text: :tab_campaigns
-  :icon: :fa-bar-chart-o
+#  :icon: :fa-bar-chart-o
   :url:
     :controller: campaigns
 - :active: false
   :text: :tab_contacts
-  :icon: :fa-user
+#  :icon: :fa-user
   :url:
     :controller: contacts
 - :active: false
   :text: :tab_opportunities
-  :icon: :fa-money
+#  :icon: :fa-money
   :url:
     :controller: opportunities
 - :active: false
   :text: "Leads"
-  :icon: :fa-tasks
+#  :icon: :fa-tasks
   :url:
     :controller: leads
 - :active: false
-  :text: "Accounts"
-  :icon: :fa-users
+  :text: "Clients"
+#  :icon: :fa-users
   :url:
     :controller: accounts
 - :active: false
   :text: :tab_team
-  :icon: :fa-globe
+#  :icon: :fa-globe
   :url:
     :controller: users
     :action: opportunities_overview
 - :active: false
+  :text: "History"
+#  :icon: :fa-history
+  :url:
+    :controller: queries
+- :active: false
   :text: "BWISEBGREEN"
-  :icon: :fa-search
+#  :icon: :fa-search
   :url:
     :controller: bwisebgreen
     :action: index
 - :active: false
-  :text: "History"
-  :icon: :fa-history
-  :url:
-    :controller: queries
-- :active: false
   :text: "Reports"
-  :icon: :fa-list-alt
+#  :icon: :fa-list-alt
   :url:
     :controller: reports
-
+- :active: false
+  :text: "Documents"
+#  :icon: :fa-search
+  :url:
+    :controller: documents
 
 :admin_tabs:
 - :active: true
@@ -303,12 +307,12 @@ account_category:
   - :vendor
 
 account_category_color:
-  :affiliate   : Silver
-  :competitor  : Silver
-  :customer    : Silver
-  :partner     : Silver
-  :reseller    : Silver
-  :vendor      : Silver
+  :affiliate   : White
+  :competitor  : White
+  :customer    : White
+  :partner     : White
+  :reseller    : White
+  :vendor      : White
 
 # Campaign Status. To add custom status use string value, for example:
 #
@@ -324,11 +328,11 @@ campaign_status:
   - :called_off
 
 campaign_status_color:
-  :planned    : Silver
-  :started    : Silver
-  :completed  : Silver
-  :on_hold    : Silver
-  :called_off : Silver
+  :planned    : White
+  :started    : White
+  :completed  : White
+  :on_hold    : White
+  :called_off : White
 
 # Lead Status and Source.
 #------------------------------------------------------------------------------
@@ -339,10 +343,10 @@ lead_status:
   - :rejected
 
 lead_status_color:
-  :new       : Silver
-  :contacted : Silver
-  :converted : Silver
-  :rejected  : Silver
+  :new       : White
+  :contacted : White
+  :converted : White
+  :rejected  : White
 
 lead_source:
   - :campaign
@@ -369,14 +373,14 @@ opportunity_stage:
   - :lost
 
 opportunity_stage_color:
-  :prospecting  : Silver
-  :analysis     : Silver
-  :presentation : Silver
-  :proposal     : Silver
-  :negotiation  : Silver
-  :final_review : Silver
-  :won          : Silver
-  :lost         : Silver
+  :prospecting  : White
+  :analysis     : White
+  :presentation : White
+  :proposal     : White
+  :negotiation  : White
+  :final_review : White
+  :won          : White
+  :lost         : White
 
 # Task Category, Due Date, and Completed Date.
 #------------------------------------------------------------------------------
@@ -391,14 +395,14 @@ task_category:
   - :trip
 
 task_category_color:
-  :call         : Silver
-  :email        : Silver
-  :follow_up    : Silver
-  :lunch        : Silver
-  :meeting      : Silver
-  :money        : Silver
-  :presentation : Silver
-  :trip         : Silver
+  :call         : White
+  :email        : White
+  :follow_up    : White
+  :lunch        : White
+  :meeting      : White
+  :money        : White
+  :presentation : White
+  :trip         : White
 
 task_bucket:
   - :overdue
